@@ -36,3 +36,15 @@ const myfxn = function(){
 }
 
 console.log(typeof myfxn);// function object aaega
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack -> primitive type  ( always gets a copy of original variable in this kind)
+// heap -> non primitive (always we get reference of original variable)
+
+let ytchnl = 'ramjikichaal.com'
+let another = ytchnl
+console.log(another);
+another = "King Shit"
+console.log(another);
+
